@@ -1,0 +1,87 @@
+name: Collect Place IDs
+
+on:
+  schedule:
+    # Every 3 days at 09:00 JST (00:00 UTC)
+    - cron: "0 0 */3 * *"
+    # Force-run on 27th JST to align before 28th details run.
+    - cron: "0 0 27 * *"
+  workflow_dispatch:
+    inputs:
+      run_date:
+        description: "Run date in JST (YYYY-MM-DD). Empty = today(JST)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-place-ids
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo
+      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Resolve run date
+        id: vars
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "${{ github.event.inputs.run_date }}" ]; then
+            RUN_DATE="${{ github.event.inputs.run_date }}"
+          else
+            RUN_DATE="$(date +%F)"
+          fi
+          echo "run_date=$RUN_DATE" >> "$GITHUB_OUTPUT"
+          echo "RUN_DATE=$RUN_DATE" >> "$GITHUB_ENV"
+
+      - name: Collect place IDs (grid, fixed params)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python src/collect_place_ids_textsearch.py \
+            --mode grid \
+            --hard-cap-ids 100000 \
+            --inbox-out "inbox/place_ids_grid_${RUN_DATE}.txt" \
+            --out-new "out/new_ids_${RUN_DATE}.txt" \
+            --master data/master.json
+
+      - name: Update master
+        shell: bash
+        run: |
+          set -euo pipefail
+          python src/update_master.py \
+            --dataset tokyo_salon \
+            --timezone Asia/Tokyo \
+            --area tokyo_23ku \
+            --category salon \
+            --today "$RUN_DATE" \
+            --in "inbox/place_ids_grid_${RUN_DATE}.txt" \
+            --master data/master.json
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/master.json inbox/ out/
+          git commit -m "collect: ${RUN_DATE} place ids update"
+          git push

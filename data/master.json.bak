@@ -1,0 +1,411 @@
+﻿{
+  "meta": {
+    "schema": 1,
+    "dataset": "tokyo_salon",
+    "timezone": "Asia/Tokyo",
+    "created_at": "2026-02-11T16:19:09+09:00",
+    "updated_at": "2026-02-11T16:48:28+09:00"
+  },
+  "places": {
+    "﻿ChIJxxxxxxxxxxxxxxxxxxxx": {
+      "place_id": "﻿ChIJxxxxxxxxxxxxxxxxxxxx",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_salon",
+      "last_seen_run": "2026-02-11_tokyo_salon"
+    },
+    "ChIJyyyyyyyyyyyyyyyyyyyy": {
+      "place_id": "ChIJyyyyyyyyyyyyyyyyyyyy",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_salon",
+      "last_seen_run": "2026-02-11_tokyo_salon"
+    },
+    "ChIJj8S5MweNGGARtYV1s4vDDTs": {
+      "place_id": "ChIJj8S5MweNGGARtYV1s4vDDTs",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJp4gPWRmNGGARusJCR1MVM_w": {
+      "place_id": "ChIJp4gPWRmNGGARusJCR1MVM_w",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJQQhug7SPGGARdLsw2bSlX5M": {
+      "place_id": "ChIJQQhug7SPGGARdLsw2bSlX5M",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ2xFKzu-LGGARBC4DwHHFUMs": {
+      "place_id": "ChIJ2xFKzu-LGGARBC4DwHHFUMs",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJA62LpLKNGGART28z-gY3GUo": {
+      "place_id": "ChIJA62LpLKNGGART28z-gY3GUo",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJmTUPqO6NGGAR4JBsjM1BsCs": {
+      "place_id": "ChIJmTUPqO6NGGAR4JBsjM1BsCs",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJf-js6BCMGGARuYWsUEeO6as": {
+      "place_id": "ChIJf-js6BCMGGARuYWsUEeO6as",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ90n_rRaMGGAR7VH4WZYL7JA": {
+      "place_id": "ChIJ90n_rRaMGGAR7VH4WZYL7JA",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ7aswkxSMGGAR02Ak-D21xDo": {
+      "place_id": "ChIJ7aswkxSMGGAR02Ak-D21xDo",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJAaQGcj2NGGARuSuGS8qd8oo": {
+      "place_id": "ChIJAaQGcj2NGGARuSuGS8qd8oo",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJReRSBSGPGGARs6bZYCdiiD0": {
+      "place_id": "ChIJReRSBSGPGGARs6bZYCdiiD0",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ2XD9bF-NGGARzbA4lgrrYOY": {
+      "place_id": "ChIJ2XD9bF-NGGARzbA4lgrrYOY",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJoR2czr8VoYQRY2FDfB2txlM": {
+      "place_id": "ChIJoR2czr8VoYQRY2FDfB2txlM",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJHfesD7CNGGARiWaQnYRUEdU": {
+      "place_id": "ChIJHfesD7CNGGARiWaQnYRUEdU",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJd14nvUGMGGARDjrsKHTwPHM": {
+      "place_id": "ChIJd14nvUGMGGARDjrsKHTwPHM",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJjSh4x4GNGGARUSzeWBmqFe4": {
+      "place_id": "ChIJjSh4x4GNGGARUSzeWBmqFe4",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ_-BP9hCMGGARCB3a6CjLXR0": {
+      "place_id": "ChIJ_-BP9hCMGGARCB3a6CjLXR0",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJNRBZSmeMGGARRw0WZgKijz4": {
+      "place_id": "ChIJNRBZSmeMGGARRw0WZgKijz4",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJE-qxVgyNGGARS5achwQOCh4": {
+      "place_id": "ChIJE-qxVgyNGGARS5achwQOCh4",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJex-C5zSNGGARqtrLpH2InsE": {
+      "place_id": "ChIJex-C5zSNGGARqtrLpH2InsE",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJt4WoqG6JGGARvkQAwUYyzJk": {
+      "place_id": "ChIJt4WoqG6JGGARvkQAwUYyzJk",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJQQm8P1uJGGARXAW35F2Lpuw": {
+      "place_id": "ChIJQQm8P1uJGGARXAW35F2Lpuw",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJdYO2L-iLGGARkZtNc7UsG_c": {
+      "place_id": "ChIJdYO2L-iLGGARkZtNc7UsG_c",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJoSA5GAmJGGARd9NVaUHSH_0": {
+      "place_id": "ChIJoSA5GAmJGGARd9NVaUHSH_0",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJB4-luuqLGGARUKFfTFQ_5jo": {
+      "place_id": "ChIJB4-luuqLGGARUKFfTFQ_5jo",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ99XT6i-LGGARJ0WW9qUYvRU": {
+      "place_id": "ChIJ99XT6i-LGGARJ0WW9qUYvRU",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJtbcX4-aLGGARigUqzHdW6io": {
+      "place_id": "ChIJtbcX4-aLGGARigUqzHdW6io",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJn3_SJ-GLGGARwtG5d66Rxfo": {
+      "place_id": "ChIJn3_SJ-GLGGARwtG5d66Rxfo",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJPffLX2iLGGARRyq-9VTZ064": {
+      "place_id": "ChIJPffLX2iLGGARRyq-9VTZ064",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJgx37P-SLGGARtBX24kKC5Zo": {
+      "place_id": "ChIJgx37P-SLGGARtBX24kKC5Zo",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJRSxHEeyLGGARpq-RPqvYVKI": {
+      "place_id": "ChIJRSxHEeyLGGARpq-RPqvYVKI",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJTRhxbuSLGGAR9OKghsLN1vc": {
+      "place_id": "ChIJTRhxbuSLGGAR9OKghsLN1vc",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ47UL7amLGGARr1XMDdGxCWg": {
+      "place_id": "ChIJ47UL7amLGGARr1XMDdGxCWg",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJL4-crOaLGGARDHzp5Vn8Kqw": {
+      "place_id": "ChIJL4-crOaLGGARDHzp5Vn8Kqw",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJgco-2uaLGGARQMwyBveqhTQ": {
+      "place_id": "ChIJgco-2uaLGGARQMwyBveqhTQ",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJn43nIxiLGGAR95Aoq8iVVE4": {
+      "place_id": "ChIJn43nIxiLGGAR95Aoq8iVVE4",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJ0TxiADyLGGARHsRSRxVAlgE": {
+      "place_id": "ChIJ0TxiADyLGGARHsRSRxVAlgE",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJcTFJRLWJGGARmIgvcGFGgb4": {
+      "place_id": "ChIJcTFJRLWJGGARmIgvcGFGgb4",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJPxV0vziLGGAROpqnPy_llI0": {
+      "place_id": "ChIJPxV0vziLGGAROpqnPy_llI0",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    },
+    "ChIJoecnW3CLGGAR1XH4eK1AheQ": {
+      "place_id": "ChIJoecnW3CLGGAR1XH4eK1AheQ",
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "first_seen_run": "2026-02-11_tokyo_23ku_salon",
+      "last_seen_run": "2026-02-11_tokyo_23ku_salon"
+    }
+  },
+  "runs": [
+    {
+      "run_id": "2026-02-11_tokyo_salon",
+      "date": "2026-02-11",
+      "started_at": "2026-02-11T16:19:09+09:00",
+      "ended_at": "2026-02-11T16:19:09+09:00",
+      "area": "tokyo",
+      "category": "salon",
+      "found": 2,
+      "new": 2
+    },
+    {
+      "run_id": "2026-02-11_tokyo_23ku_salon",
+      "date": "2026-02-11",
+      "started_at": "2026-02-11T16:48:28+09:00",
+      "ended_at": "2026-02-11T16:48:28+09:00",
+      "area": "tokyo_23ku",
+      "category": "salon",
+      "found": 40,
+      "new": 40
+    }
+  ]
+}

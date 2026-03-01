@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Optional: uncomment if you do not want to version archived files
+# archive/
+
+# Optional: uncomment if you do not want to version local monthly snapshots
+# out/monthly/*.csv
+# !out/monthly/current_leads.csv

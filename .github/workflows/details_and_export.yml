@@ -1,0 +1,78 @@
+name: Fetch Details And Export CSV
+
+on:
+  schedule:
+    # 14th and 28th at 09:30 JST (00:30 UTC)
+    - cron: "30 0 14,28 * *"
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Target month in JST (YYYY-MM). Empty = current month(JST)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: details-and-export
+  cancel-in-progress: false
+
+jobs:
+  details_and_export:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo
+      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Resolve target month
+        id: vars
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "${{ github.event.inputs.month }}" ]; then
+            TARGET_MONTH="${{ github.event.inputs.month }}"
+          else
+            TARGET_MONTH="$(date +%Y-%m)"
+          fi
+          echo "target_month=$TARGET_MONTH" >> "$GITHUB_OUTPUT"
+          echo "TARGET_MONTH=$TARGET_MONTH" >> "$GITHUB_ENV"
+
+      - name: Fetch details
+        shell: bash
+        run: |
+          set -euo pipefail
+          python src/fetch_place_details.py \
+            --month "$TARGET_MONTH" \
+            --master data/master.json
+
+      - name: Build monthly CSV (overwrite fixed file)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python src/build_monthly_csv.py \
+            --month "$TARGET_MONTH" \
+            --master data/master.json \
+            --out out/monthly/current_leads.csv
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/master.json out/monthly/current_leads.csv
+          git commit -m "details+export: ${TARGET_MONTH} update"
+          git push

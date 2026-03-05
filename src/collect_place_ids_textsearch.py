@@ -30,6 +30,10 @@ DEFAULT_BBOX_TOKYO_23KU = (35.53000, 139.57000, 35.83000, 139.92000)  # (min_lat
 DEFAULT_GRID_RADIUS_M = 1600.0
 DEFAULT_GRID_STEP_M = 1800.0
 DEFAULT_GRID_INCLUDED_TYPES = ["hair_salon"]
+RETRYABLE_HTTP_STATUS = {429, 500, 502, 503, 504}
+HTTP_MAX_RETRIES = 5
+HTTP_BACKOFF_BASE_SEC = 1.0
+HTTP_BACKOFF_MAX_SEC = 16.0
 
 
 # =========================
@@ -110,20 +114,34 @@ def meters_to_lng_deg(m: float, lat_deg: float) -> float:
 
 def http_post_json(url: str, headers: Dict[str, str], payload: Dict[str, Any], timeout: int = 30) -> Dict[str, Any]:
     data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(url, data=data, method="POST")
-    for k, v in headers.items():
-        req.add_header(k, v)
 
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            body = resp.read().decode("utf-8", errors="replace")
-        return json.loads(body)
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace") if hasattr(e, "read") else ""
-        msg = body.strip() or str(e)
-        raise RuntimeError(f"HTTPError {e.code} for {url}: {msg}") from e
-    except urllib.error.URLError as e:
-        raise RuntimeError(f"URLError for {url}: {e}") from e
+    for attempt in range(1, HTTP_MAX_RETRIES + 1):
+        req = urllib.request.Request(url, data=data, method="POST")
+        for k, v in headers.items():
+            req.add_header(k, v)
+
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                body = resp.read().decode("utf-8", errors="replace")
+            return json.loads(body)
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", errors="replace") if hasattr(e, "read") else ""
+            msg = body.strip() or str(e)
+            if e.code in RETRYABLE_HTTP_STATUS and attempt < HTTP_MAX_RETRIES:
+                wait = min(HTTP_BACKOFF_MAX_SEC, HTTP_BACKOFF_BASE_SEC * (2 ** (attempt - 1)))
+                print(f"WARN: HTTP {e.code} retry {attempt}/{HTTP_MAX_RETRIES} wait={wait:.1f}s")
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"HTTPError {e.code} for {url}: {msg}") from e
+        except urllib.error.URLError as e:
+            if attempt < HTTP_MAX_RETRIES:
+                wait = min(HTTP_BACKOFF_MAX_SEC, HTTP_BACKOFF_BASE_SEC * (2 ** (attempt - 1)))
+                print(f"WARN: URLError retry {attempt}/{HTTP_MAX_RETRIES} wait={wait:.1f}s err={e}")
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"URLError for {url}: {e}") from e
+
+    raise RuntimeError(f"HTTP request failed after retries: {url}")
 
 
 @dataclass

@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-03-13T10:08:34+09:00"
+    "updated_at": "2026-03-14T12:10:57+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -116600,8 +116600,28 @@
       "category": "salon",
       "first_seen_run": "2026-03-07_tokyo_23ku_salon",
       "last_seen_run": "2026-03-13_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJ1T7NsheRGGARKfGjl079198",
+        "name": "ＢＬＡＣＫ・ＣＡＮＤＹ",
+        "formatted_address": "〒340-0034 埼玉県草加市氷川町2102−２ バウハウス 1F",
+        "phone": "048-929-2855",
+        "website": "https://beauty.hotpepper.jp/slnH000249007/",
+        "google_maps_uri": "https://maps.google.com/?cid=16129639104444100905&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.6,
+        "user_rating_count": 17,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "service",
+          "point_of_interest",
+          "hair_care",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-03-14T12:10:56+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [

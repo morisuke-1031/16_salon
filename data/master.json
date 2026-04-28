@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-04-28T10:37:36+09:00"
+    "updated_at": "2026-04-28T13:11:39+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -116662,8 +116662,28 @@
       "category": "salon",
       "first_seen_run": "2026-04-28_tokyo_23ku_salon",
       "last_seen_run": "2026-04-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJkUIx9rzxGGAR-JbLZx1iyzY",
+        "name": "Col",
+        "formatted_address": "〒157-0073 東京都世田谷区砧６丁目２８−５ たけやビル 104",
+        "phone": null,
+        "website": "http://col-hair.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=3948357376755341048&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 5,
+        "user_rating_count": 1,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-04-28T13:11:39+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [

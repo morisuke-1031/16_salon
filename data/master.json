@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-07-28T10:23:44+09:00"
+    "updated_at": "2026-07-28T12:44:45+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -116798,8 +116798,28 @@
       "category": "salon",
       "first_seen_run": "2026-07-25_tokyo_23ku_salon",
       "last_seen_run": "2026-07-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJCxkofd6NGGARKkE6J529ayU",
+        "name": "DX シェアサロン 原宿",
+        "formatted_address": "〒150-0001 東京都渋谷区神宮前１丁目９−８ KI-438ビル 1F-A",
+        "phone": "03-6447-5226",
+        "website": "https://dx-share-salon.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=2696457284577018154&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.3,
+        "user_rating_count": 6,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "point_of_interest",
+          "service",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-07-28T12:44:45+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [

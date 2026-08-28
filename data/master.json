@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-08-28T16:24:32+09:00"
+    "updated_at": "2026-08-28T20:37:02+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -116862,8 +116862,28 @@
       "category": "salon",
       "first_seen_run": "2026-08-16_tokyo_23ku_salon",
       "last_seen_run": "2026-08-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJeTJL9x2NGGARQ1iukcvKnc0",
+        "name": "ワク（WAKU ）",
+        "formatted_address": "〒150-0001 東京都渋谷区神宮前３丁目３９−５ QIZaoyama 5F",
+        "phone": "03-5843-0892",
+        "website": "https://beauty.hotpepper.jp/slnH000452706/",
+        "google_maps_uri": "https://maps.google.com/?cid=14816221324790093891&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.8,
+        "user_rating_count": 23,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "point_of_interest",
+          "service",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-08-28T20:37:02+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [

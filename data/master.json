@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-09-28T11:17:37+09:00"
+    "updated_at": "2026-09-28T14:41:12+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -116893,8 +116893,29 @@
       "category": "salon",
       "first_seen_run": "2026-09-25_tokyo_23ku_salon",
       "last_seen_run": "2026-09-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJo4q1EDf3GGARqZrRdz1PJho",
+        "name": "carpe Marais / 増毛エクステ / LEDバインドロック",
+        "formatted_address": "〒213-0033 神奈川県川崎市高津区下作延６丁目６−１４ バードパレス １F",
+        "phone": "044-819-7661",
+        "website": "https://carpe-aireku-zomo.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=1884280619522955945&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 5,
+        "user_rating_count": 4,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "beauty_salon",
+          "point_of_interest",
+          "service",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-09-28T14:41:11+09:00",
+      "details_error": null,
+      "details_error_at": null
     },
     "ChIJd93-9XuNGGARAFjuYcwWch8": {
       "place_id": "ChIJd93-9XuNGGARAFjuYcwWch8",
@@ -116904,8 +116925,28 @@
       "category": "salon",
       "first_seen_run": "2026-09-25_tokyo_23ku_salon",
       "last_seen_run": "2026-09-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJd93-9XuNGGARAFjuYcwWch8",
+        "name": "QIN",
+        "formatted_address": "〒150-0001 東京都渋谷区神宮前１丁目８−１７ 2F",
+        "phone": null,
+        "website": "https://www.shairesalon-go.today/shop/tokyo/harajuku/qin-harajuku/",
+        "google_maps_uri": "https://maps.google.com/?cid=2265898629592930304&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.8,
+        "user_rating_count": 45,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-09-28T14:41:11+09:00",
+      "details_error": null,
+      "details_error_at": null
     },
     "ChIJ181daBuPGGARrLI7Nm6zOhg": {
       "place_id": "ChIJ181daBuPGGARrLI7Nm6zOhg",
@@ -116915,8 +116956,28 @@
       "category": "salon",
       "first_seen_run": "2026-09-25_tokyo_23ku_salon",
       "last_seen_run": "2026-09-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJ181daBuPGGARrLI7Nm6zOhg",
+        "name": "秋葉原コットン アニュー ヘアセット専門店",
+        "formatted_address": "〒101-0027 東京都千代田区神田平河町１ 澤山ビル 3階",
+        "phone": "03-4400-2217",
+        "website": null,
+        "google_maps_uri": "https://maps.google.com/?cid=1745905091497145004&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.1,
+        "user_rating_count": 8,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "point_of_interest",
+          "service",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-09-28T14:41:12+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [

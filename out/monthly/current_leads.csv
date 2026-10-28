@@ -1,2 +1,3 @@
 ﻿priority,score,detected_first,place_id,name,formatted_address,ward,rating,user_rating_count,phone,website,business_status,google_maps_uri
-C,28.33,2026-10-01,ChIJhSNQGACJGGARP3IklHxQnrc,Ariake,〒135-0063 東京都江東区有明３丁目７−７,江東区,,,,,OPERATIONAL,"=HYPERLINK(""https://maps.google.com/?cid=13231101251252679231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"",""Google Mapへ"")"
+B,34.88,2026-10-16,ChIJf8f3q9qFGGARgXQ6VC1557M,ステラート,〒133-0051 東京都江戸川区北小岩６丁目１５−１２ サトウコーポ,江戸川区,3.7,3,03-3672-3635,"=HYPERLINK(""https://beauty.hotpepper.jp/slnH000131497/"",""サイトへ"")",OPERATIONAL,"=HYPERLINK(""https://maps.google.com/?cid=12963463288002868353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"",""Google Mapへ"")"
+C,5.0,2026-10-01,ChIJhSNQGACJGGARP3IklHxQnrc,Ariake,〒135-0063 東京都江東区有明３丁目７−７,江東区,,,,,OPERATIONAL,"=HYPERLINK(""https://maps.google.com/?cid=13231101251252679231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"",""Google Mapへ"")"

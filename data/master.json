@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-10-28T11:52:29+09:00"
+    "updated_at": "2026-10-28T15:00:14+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -117018,8 +117018,29 @@
       "category": "salon",
       "first_seen_run": "2026-10-16_tokyo_23ku_salon",
       "last_seen_run": "2026-10-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJf8f3q9qFGGARgXQ6VC1557M",
+        "name": "ステラート",
+        "formatted_address": "〒133-0051 東京都江戸川区北小岩６丁目１５−１２ サトウコーポ",
+        "phone": "03-3672-3635",
+        "website": "https://beauty.hotpepper.jp/slnH000131497/",
+        "google_maps_uri": "https://maps.google.com/?cid=12963463288002868353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 3.7,
+        "user_rating_count": 3,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "service",
+          "point_of_interest",
+          "store",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-10-28T15:00:14+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [

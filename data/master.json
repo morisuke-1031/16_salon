@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-11-13T12:54:17+09:00"
+    "updated_at": "2026-11-14T15:51:00+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -117050,8 +117050,29 @@
       "category": "salon",
       "first_seen_run": "2026-11-10_tokyo_23ku_salon",
       "last_seen_run": "2026-11-13_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJuyZXDB2JGGARJlQ9BNRC0Tc",
+        "name": "ＳＯＬ東雲/有明店",
+        "formatted_address": "アパート, ３号棟, １丁目-８-3 東雲 江東区 東京都 135-0062",
+        "phone": "03-5534-9292",
+        "website": "https://sol-hair.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=4022069420590191654&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": null,
+        "user_rating_count": null,
+        "business_status": "CLOSED_TEMPORARILY",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "beauty_salon",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-11-14T15:50:59+09:00",
+      "details_error": null,
+      "details_error_at": null
     },
     "ChIJS4quLArzGGARFkl60meDLjI": {
       "place_id": "ChIJS4quLArzGGARFkl60meDLjI",
@@ -117061,8 +117082,30 @@
       "category": "salon",
       "first_seen_run": "2026-11-13_tokyo_23ku_salon",
       "last_seen_run": "2026-11-13_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJS4quLArzGGARFkl60meDLjI",
+        "name": "past and new",
+        "formatted_address": "〒154-0023 東京都世田谷区若林５丁目２１−１３",
+        "phone": "080-7730-4763",
+        "website": "https://pastandnew.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=3615972032761186582&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.7,
+        "user_rating_count": 31,
+        "business_status": "OPERATIONAL",
+        "primary_type": "barber_shop",
+        "types": [
+          "barber_shop",
+          "hair_salon",
+          "hair_care",
+          "health",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-11-14T15:50:59+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [

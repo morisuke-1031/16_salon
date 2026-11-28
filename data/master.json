@@ -4,7 +4,7 @@
     "dataset": "tokyo_salon",
     "timezone": "Asia/Tokyo",
     "created_at": "2026-02-11T16:19:09+09:00",
-    "updated_at": "2026-11-28T14:18:09+09:00"
+    "updated_at": "2026-11-28T17:15:04+09:00"
   },
   "places": {
     "ChIJxxxxxxxxxxxxxxxxxxxx": {
@@ -117115,8 +117115,28 @@
       "category": "salon",
       "first_seen_run": "2026-11-19_tokyo_23ku_salon",
       "last_seen_run": "2026-11-19_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJ401oQpaNGGAR9uAwg9LMliw",
+        "name": "MMM",
+        "formatted_address": "〒226-0003 神奈川県横浜市緑区鴨居１丁目９−１６",
+        "phone": null,
+        "website": null,
+        "google_maps_uri": "https://maps.google.com/?cid=3212980588691644662&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 2.4,
+        "user_rating_count": 9,
+        "business_status": "CLOSED_PERMANENTLY",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-11-28T17:15:02+09:00",
+      "details_error": null,
+      "details_error_at": null
     },
     "ChIJoehZDgiRGGAR6xzK43pt2Sw": {
       "place_id": "ChIJoehZDgiRGGAR6xzK43pt2Sw",
@@ -117126,8 +117146,30 @@
       "category": "salon",
       "first_seen_run": "2026-11-19_tokyo_23ku_salon",
       "last_seen_run": "2026-11-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJoehZDgiRGGAR6xzK43pt2Sw",
+        "name": "ヘアーサロンＪＡＣＫ 草加",
+        "formatted_address": "〒340-0022 埼玉県草加市瀬崎３丁目３５−３２",
+        "phone": "048-922-2232",
+        "website": "http://jack-noda-souka.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=3231734582190152939&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.6,
+        "user_rating_count": 36,
+        "business_status": "OPERATIONAL",
+        "primary_type": "barber_shop",
+        "types": [
+          "barber_shop",
+          "hair_salon",
+          "hair_care",
+          "health",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-11-28T17:15:03+09:00",
+      "details_error": null,
+      "details_error_at": null
     },
     "ChIJg3FxIhlfGGARYUjcoP5Ta8M": {
       "place_id": "ChIJg3FxIhlfGGARYUjcoP5Ta8M",
@@ -117137,8 +117179,28 @@
       "category": "salon",
       "first_seen_run": "2026-11-25_tokyo_23ku_salon",
       "last_seen_run": "2026-11-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJg3FxIhlfGGARYUjcoP5Ta8M",
+        "name": "あかしや美容室",
+        "formatted_address": "〒222-0003 神奈川県横浜市港北区大曽根１丁目２６−１３",
+        "phone": "045-531-1984",
+        "website": "https://www.salon-akashiya.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=14081441012989577313&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 4.4,
+        "user_rating_count": 7,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "hair_care",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-11-28T17:15:03+09:00",
+      "details_error": null,
+      "details_error_at": null
     },
     "ChIJ-cW6SW7zGGARdRWNoS5k5jg": {
       "place_id": "ChIJ-cW6SW7zGGARdRWNoS5k5jg",
@@ -117148,8 +117210,30 @@
       "category": "salon",
       "first_seen_run": "2026-11-27_tokyo_23ku_salon",
       "last_seen_run": "2026-11-28_tokyo_23ku_salon",
-      "details_min": null,
-      "details_fetched_at": null
+      "details_min": {
+        "place_id": "ChIJ-cW6SW7zGGARdRWNoS5k5jg",
+        "name": "AWRY BY THE MANNER / whole",
+        "formatted_address": "〒151-0062 東京都渋谷区元代々木町２５−８",
+        "phone": "03-6407-0660",
+        "website": "http://awrybythemanner.com/",
+        "google_maps_uri": "https://maps.google.com/?cid=4100074662209066357&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "rating": 3.6,
+        "user_rating_count": 10,
+        "business_status": "OPERATIONAL",
+        "primary_type": "hair_salon",
+        "types": [
+          "hair_salon",
+          "florist",
+          "hair_care",
+          "store",
+          "service",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      "details_fetched_at": "2026-11-28T17:15:03+09:00",
+      "details_error": null,
+      "details_error_at": null
     }
   },
   "runs": [
